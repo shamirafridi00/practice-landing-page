@@ -1,3 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Nav Bar Section */
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1f2937;
+    color: #ffff;
+}
+
+.nav-bar .logo{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+}
+.nav-bar ul{
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.nav-bar li{
+    margin: 20px;
+}
+
+
+
+/* Header Section */
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 img{
     width: 100px;
     height: 100px;
