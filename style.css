@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .container{
-    max-width: 1100px;
+    max-width: 1500px;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 20px;
 }
 
 /* Nav Bar Section */
@@ -15,7 +16,8 @@
 .nav-bar{
     background-color: #1f2937;
     color: #ffff;
-    height: 60px;
+    height: 100px;
+    padding-top: 50px;
 }
 
 .nav-bar .container{
@@ -30,6 +32,7 @@
     font-size: 24px;
     font-weight: bold;
     padding: 20px;
+    color: #f9faf8;
 }
 .nav-bar ul{
     list-style-type: none;
@@ -48,14 +51,14 @@
 .head{
     background-color: #1f2937;
     color: white;
-    height: 400px;
-    padding: 20px;
+    height: 600px;
+    padding: 40px;
     flex: 1;
 }
 
 .head .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     height: 100%;
     width: 100%;
@@ -69,29 +72,34 @@
 
 .head-section h1{
     line-height: 1.2;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8
 }
 
 .head-section p{
     max-width: 65%;
     line-height: 1.6;
+    margin-bottom: 20px;
 }
 
 .head-section .btn{
-    padding: 10px 30px; 
-    background-color: #007bff; 
+    padding: 20px 40px; 
+    background-color: #3882f6; 
     color: #fff; 
     border: none;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;  
-    margin-top: 15px;
 }
 
 
 .head-image img{
-    width: 600px;
+    width: 800px;
     height: 300px;
+    opacity: 0.9; /* Adjust the opacity as needed */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -99,46 +107,73 @@
 
 .information h2{
     text-align: center;
-    margin: 60px;
+    margin: 100px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
+
+.information .container{
+    width: 1100px;
+}
+
 .information .boxes{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    padding: 20px;
-    gap: 20px;
+    justify-content: space-around;
     flex: 1 0 0%;
 }
 
 .boxes .box img {
-    width: 200px;
-    height: 150px;
-    margin-bottom: 10px;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 5px;
+    border-radius: 20px;
 }
 
 .box p{
     width: 80%;
+    margin-bottom: 150px;
+    text-align: center;
+    color: black;
 }
 
 
 /* Quote Area */
 
-.quote{
+.quote {
     height: 400px;
     width: 100%;
     background-color: #E5E7EB;
     display: flex;
     align-items: center;
     justify-content: center;
+   
+}
+
+.quote .container{
+    width: 1100px;
+}
+
+.quote  .great{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
 }
 
 .quote .said{
     display: flex;
     justify-content: flex-end;
     margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 /* Call to Action */
+.call-to-action .container{
+    width: 1100px;
+}
 
 .call-to-action{
     height: 400px;
@@ -151,12 +186,32 @@
 .cta-wrapper{
     display: flex;
     justify-content: space-between ;
-    background-color: #007bff;
-    height: 100px;
+    background-color: #3882f6;
+    height: 90px;
     align-items: center;
     padding: 70px;
     flex: 1;
     gap: 80px;
+    border-radius: 10px;
+}
+
+.cta-wrapper .call-heading h3{
+    color: #f9faf8;
+    margin-bottom: 8px;
+}
+
+.cta-wrapper .call-heading p{
+    color: #E5E7EB;
+}
+
+.cta-wrapper .sign-up button{
+    padding: 20px 40px; 
+    background-color: #3882f6; 
+    color: #fff; 
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 /* footer */
@@ -164,36 +219,11 @@
 
 .copyright{
     height: 80px;
-    background-color: yellow;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-weight: 300;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
