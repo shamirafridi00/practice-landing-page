@@ -49,6 +49,8 @@
     background-color: #1f2937;
     color: white;
     height: 400px;
+    padding: 20px;
+    flex: 1;
 }
 
 .head .container{
@@ -56,13 +58,48 @@
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    width: 100%;
+}
+
+.head .head-section{
+    flex: 1;
+    padding-right: 20px;
+    
+}
+
+.head-section h1{
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.head-section p{
+    max-width: 65%;
+    line-height: 1.6;
+}
+
+.head-section .btn{
+    padding: 10px 30px; 
+    background-color: #007bff; 
+    color: #fff; 
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;  
+    margin-top: 15px;
 }
 
 
-.container img{
-    width: 300px;
+.head-image img{
+    width: 600px;
     height: 300px;
 }
+
+
+
+
+
+
+
 
 
 
